@@ -1,13 +1,10 @@
 import './App.css';
-import UseReducerHook from './useReducer/UseReducerHook';
-import UseReducerHook2 from './useReducer/UseReducerHook2';
-
+import UseMemoHook from './useMemo/UseMemoHook';
 
 function App() {
   return (
     <div className="App">
-      <UseReducerHook/>
-      <UseReducerHook2/>
+      <UseMemoHook/>
     </div>
   );
 }
