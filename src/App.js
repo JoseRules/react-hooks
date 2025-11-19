@@ -1,10 +1,10 @@
 import './App.css';
-import UseMemoHook from './useMemo/UseMemoHook';
+import UseEffectHook2 from './useEffect/useEffectHook2';
 
 function App() {
   return (
     <div className="App">
-      <UseMemoHook/>
+      <UseEffectHook2/>
     </div>
   );
 }
